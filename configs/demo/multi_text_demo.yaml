@@ -1,0 +1,10 @@
+DATASET:
+  IMAGE_LIB: datasets/demo_dataset
+  USE_EMBEDDINGS: True
+MODEL: ViT-L/14
+INPUT:
+  IMAGES: []
+  TEXT:
+  - A photo of a person.
+  - A photo of a plane.
+OUTPUT_DIR: ./output
